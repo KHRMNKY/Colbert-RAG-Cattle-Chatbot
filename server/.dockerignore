@@ -1,0 +1,27 @@
+# Environments
+.env
+# .env.* tüm .env uzantılı dosyaları hariç tutuyordu, değiştiriyorum
+!.env.example
+**/.env
+# Alt dizinlerdeki .env.example dosyalarını dahil et
+!**/.env.example
+**/.env.*
+!**/.env.example
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+/FarmerAgentVenv
+FarmerAgentVenv/
+FarmerAgentVenv.bak/
+
+# Python cache files
+__pycache__/
+farmenv/
+app/__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+

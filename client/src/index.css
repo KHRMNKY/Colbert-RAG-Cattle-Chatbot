@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Özel scroll bar stilleri */
+/* Temel scrollbar gizleme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}
+
+/* Scrollbar-custom sınıfı için stil */
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  display: block;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(155, 155, 155, 0.7);
+}
+
+/* Firefox için scroll bar */
+.scrollbar-custom {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+
+/* Odaklanma çizgisini kaldır */
+:focus {
+  outline: none !important;
+}
+
+:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Taşıma ve seçme izlerini kaldır */
+::selection {
+  background-color: rgba(167, 167, 167, 0.3);
+}

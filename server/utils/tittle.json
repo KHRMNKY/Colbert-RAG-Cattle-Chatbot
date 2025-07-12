@@ -1,0 +1,184 @@
+{
+    "cattle_datasets": [
+      {
+        "category": "Cattle Health and Diseases",
+        "titles": [
+          "Sığır Sağlığı ve Hastalıkları Veri Seti",
+          "Sığırlarda Görülen Yaygın Hastalıklar",
+          "Sığır Aşı ve Tedavi Kayıtları",
+          "Sığırlarda Parazit Kontrolü Verileri"
+        ]
+      },
+      {
+        "category": "Cattle Breeding and Genetics",
+        "titles": [
+          "Sığır Yetiştiriciliği ve Genetik Verileri",
+          "Sığır Irkları ve Genetik Çeşitlilik",
+          "Sığır Damızlık Seçimi Verileri",
+          "Sığırlarda Üreme Performansı Kayıtları"
+        ]
+      },
+      {
+        "category": "Milk Production and Dairy Cattle",
+        "titles": [
+          "Süt Sığırı Verimlilik Verileri",
+          "Süt Üretimi ve Kalite Analizleri",
+          "Süt Sığırı Besleme ve Bakım Kayıtları",
+          "Süt Sığırı Sağlık ve Performans Verileri"
+        ]
+      },
+      {
+        "category": "Meat Production and Beef Cattle",
+        "titles": [
+          "Et Sığırı Yetiştiriciliği Verileri",
+          "Sığır Eti Kalite ve Verimlilik Analizleri",
+          "Besi Sığırı Performans Kayıtları",
+          "Sığır Eti Üretiminde Kullanılan Yem ve Besleme Verileri"
+        ]
+      },
+      {
+        "category": "Cattle Feeding and Nutrition",
+        "titles": [
+          "Sığır Besleme ve Yem Verimliliği Verileri",
+          "Sığırlar için Yem Formülasyonları ve Besin Değerleri",
+          "Sığır Besleme Programları ve Performans Kayıtları",
+          "Sığırlarda Yem Tüketimi ve Büyüme Verileri"
+        ]
+      },
+      {
+        "category": "Cattle Management and Farming Practices",
+        "titles": [
+          "Sığır Çiftliği Yönetim Verileri",
+          "Sığır Barınakları ve Çevre Koşulları Verileri",
+          "Sığır Yetiştiriciliği için İklim ve Coğrafi Veriler",
+          "Sığır Çiftliği Otomasyon ve Teknoloji Kullanımı"
+        ]
+      },
+      {
+        "category": "Cattle Market and Economic Data",
+        "titles": [
+          "Sığır Piyasa Fiyatları ve Ticaret Verileri",
+          "Sığır Yetiştiriciliği Ekonomik Analizleri",
+          "Sığır İthalat ve İhracat Verileri",
+          "Sığır Ürünleri Süt ve Et Pazar Analizleri"
+        ]
+      },
+      {
+        "category": "Cattle Behavior and Welfare",
+        "titles": [
+          "Sığır Davranışları ve Refahı Verileri",
+          "Sığırlarda Stres ve Davranış Analizleri",
+          "Sığır Refahı İçin Çevresel Faktörler",
+          "Sığırlarda Sosyal Davranış ve Grup Dinamikleri"
+        ]
+      },
+      {
+        "category": "Cattle Genomics and Biotechnology",
+        "titles": [
+          "Sığır Genomik Verileri",
+          "Sığırlarda Biyoteknoloji Uygulamaları",
+          "Sığır Genetiği ve Moleküler Biyoloji Verileri",
+          "Sığırlarda Gen Düzenleme ve Klonlama Çalışmaları"
+        ]
+      },
+      {
+        "category": "Cattle Environmental Impact",
+        "titles": [
+          "Sığır Yetiştiriciliğinin Çevresel Etkileri",
+          "Sığır Çiftliklerinden Kaynaklanan Sera Gazı Emisyonları",
+          "Sığır Yetiştiriciliği ve Su Tüketimi Verileri",
+          "Sığır Atık Yönetimi ve Geri Dönüşüm Verileri"
+        ]
+      },
+      {
+        "category": "Cattle Breeds and Characteristics",
+        "titles": [
+          "Yerli Sığır Irkları ve Özellikleri",
+          "Sığır Irklarının Performans ve Adaptasyon Verileri",
+          "Sığır Irklarının Coğrafi Dağılımı",
+          "Sığır Irklarının Genetik ve Fiziksel Özellikleri"
+        ]
+      },
+      {
+        "category": "Cattle Reproduction and Fertility",
+        "titles": [
+          "Sığırlarda Üreme ve Doğurganlık Verileri",
+          "Sığırlarda Suni Tohumlama ve Embriyo Transferi Kayıtları",
+          "Sığırlarda Doğum ve Buzağı Bakımı Verileri",
+          "Sığırlarda Üreme Hormonları ve Performans Analizleri"
+        ]
+      },
+      {
+        "category": "Cattle Grazing and Pasture Management",
+        "titles": [
+          "Sığır Otlatma ve Mera Yönetimi Verileri",
+          "Sığırlar için Mera Bitki Örtüsü ve Kalite Analizleri",
+          "Sığır Otlatma Sistemleri ve Verimlilik",
+          "Sığırlar için Mera Islahı ve Yem Bitkileri Verileri"
+        ]
+      },
+      {
+        "category": "Cattle Transportation and Logistics",
+        "titles": [
+          "Sığır Taşımacılığı ve Lojistik Verileri",
+          "Sığır Nakliyesinde Stres ve Sağlık Analizleri",
+          "Sığır Taşıma Araçları ve Koşulları",
+          "Sığır Nakliyesinde Gümrük ve Mevzuat Verileri"
+        ]
+      },
+      {
+        "category": "Cattle Product Processing",
+        "titles": [
+          "Sığır Eti İşleme ve Paketleme Verileri",
+          "Süt İşleme ve Süt Ürünleri Üretim Verileri",
+          "Sığır Derisi İşleme ve Deri Ürünleri Verileri",
+          "Sığır Ürünlerinde Kalite Kontrol ve Standartlar"
+        ]
+      },
+      {
+        "category": "Cattle Research and Development",
+        "titles": [
+          "Sığır Araştırma ve Geliştirme Projeleri",
+          "Sığır Yetiştiriciliği İnovasyonları",
+          "Sığır Genomik Araştırmaları ve Bulguları",
+          "Sığır Sağlığı ve Verimlilik Araştırmaları"
+        ]
+      },
+      {
+        "category": "Cattle Insurance and Risk Management",
+        "titles": [
+          "Sığır Sigortası ve Risk Yönetimi Verileri",
+          "Sığır Yetiştiriciliği için Sigorta Primleri ve Talepleri",
+          "Sığır Çiftliklerinde Risk Analizi ve Önlemler",
+          "Sığır Hastalık ve Ölüm Sigortası Verileri"
+        ]
+      },
+      {
+        "category": "Cattle Education and Training",
+        "titles": [
+          "Sığır Yetiştiriciliği Eğitim Programları",
+          "Sığır Sağlığı ve Bakımı Eğitim Materyalleri",
+          "Sığır Yetiştiriciliği için Çiftçi Eğitim Verileri",
+          "Sığır Yetiştiriciliği Kursları ve Seminerleri"
+        ]
+      },
+      {
+        "category": "Cattle Technology and Innovation",
+        "titles": [
+          "Sığır Yetiştiriciliğinde Teknoloji Kullanımı",
+          "Sığır Takip Sistemleri (RFID, GPS) Verileri",
+          "Sığır Sağlığı için Sensör ve IoT Uygulamaları",
+          "Sığır Yetiştiriciliğinde Yapay Zeka ve Makine Öğrenmesi"
+        ]
+      },
+      {
+        "category": "Cattle Policy and Regulation",
+        "titles": [
+          "Sığır Yetiştiriciliği ile İlgili Yasal Düzenlemeler",
+          "Sığır Sağlığı ve Güvenliği Standartları",
+          "Sığır Ürünleri İhracat ve İthalat Mevzuatı",
+          "Sığır Yetiştiriciliği için Devlet Destekleri ve Teşvikler"
+        ]
+      }
+    ]
+  }
