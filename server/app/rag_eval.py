@@ -58,6 +58,10 @@ dataset = []
 
 
 def get_answer(query):
+    """
+    Get the answer for a given query using the Farmagent and Colber retriever.   
+    """
+    
     colbert = Colbert()
     knowledge_base = colbert.create_knowledge_base()
     agent = FarmAgent(knowledge_base, query )
@@ -75,6 +79,9 @@ def create_embedding_model():
 
 
 def create_embedding_model():
+    """
+    Create and return a HuggingFace embedding model for multilingual text.
+    """
     model_name = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
     model_kwargs = {'device': 'cuda'}
     encode_kwargs = {'normalize_embeddings': False}
@@ -95,6 +102,8 @@ def create_embedding_model():
     return LangchainLLMWrapper(llm)"""
 
 def get_llm():
+    """Create and return a Langchain LLM wrapper for the Groq model.
+    """
     from langchain_groq import ChatGroq
     import os
     api_key = os.getenv("GROQ_API_KEY")
@@ -104,10 +113,12 @@ def get_llm():
     api_key=api_key
 )
     
-    return llm
+    return LangchainLLMWrapper(llm)
 
 
 def create_dataset():
+    """Create a dataset for evaluation by retrieving answers and contexts for test questions.
+    """
     for query, reference in zip(test_questions, references):
         answers, retriever = get_answer(query)
         docs = retriever.invoke(query)
